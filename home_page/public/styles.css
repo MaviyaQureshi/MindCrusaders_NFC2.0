@@ -1,0 +1,58 @@
+body {
+  min-height: 100vh;
+  height: 100%;
+  background-color: aqua;
+  margin: 0;
+}
+
+.custommenu {
+  margin-top: 20px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 0 10px;
+  position: fixed;
+}
+
+.custommenu a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.first {
+  padding-left: 30px;
+}
+
+.second {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 5rem;
+}
+
+.third {
+  padding-right: 10px;
+}
+.custommenu button {
+  height: 5vh;
+  width: 15vh;
+}
+
+.text {
+  padding-left: 150px;
+  padding-top: 80px;
+}
+
+.maincontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.maincontainer a {
+  height: 6vh;
+  width: 70%;
+  font-weight: 900;
+}
